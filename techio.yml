@@ -5,6 +5,8 @@ plan:
     statement: markdowns/fizzbuzz.md
   - title: Fibonacci
     statement: markdowns/fibonacci.md
+  - title: Prime
+    statement: markdowns/prime.md
 
 projects:
   ruby:
