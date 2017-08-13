@@ -1,2 +1,2 @@
 require 'eto'
-Eto.names
+puts Eto.names
