@@ -1,19 +1,12 @@
 title : Ruby template
 
-# Table of content
 plan:
-  - title: Welcome # Set the page title
-    statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: FizzBuzz
+    statement: markdowns/fizzbuzz.md
+  - title: Fibonacci
+    statement: markdowns/fibonacci.md
 
-
-# Settings for your programming projects and the associated Docker images
 projects:
   ruby:
-    root: /ruby-project # Set the root path to your ruby project
-
-    # Set the docker image. This image can run ruby commands using this syntax:
-    # @[Code Editor Title]({"stubs": ["EditorFile1.ruby", "EditorFile2.ruby", ...], "command": "ruby example.rb"})
-    # More details here: https://github.com/TechDotIO/ruby-bundler-runner
+    root: /ruby-project
     runner: techio/ruby-bundler-runner:1.1.0-ruby-2.4
