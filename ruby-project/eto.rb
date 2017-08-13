@@ -1,0 +1,2 @@
+require 'eto'
+Eto.names

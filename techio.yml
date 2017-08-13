@@ -7,6 +7,8 @@ plan:
     statement: markdowns/fibonacci.md
   - title: Prime
     statement: markdowns/prime.md
+  - title: Eto
+    statement: markdowns/eto.md
 
 projects:
   ruby:

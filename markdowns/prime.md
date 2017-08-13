@@ -1,7 +1,3 @@
 ## Prime
 
-```ruby runnable
-require 'prime'
-
-print Prime.take(20)
-```
+@[Prime]({"stubs": ["prime.rb"], "command": "ruby prime.rb"})
